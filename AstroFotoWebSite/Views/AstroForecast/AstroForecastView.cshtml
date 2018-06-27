@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "AstroForecastView";
+}
+
+<h2 class="h2-white" style="text-align: center">Прогноз погоды</h2>
+<p class="p-white"><i>Данные погоды с sat24.com и meteoblue.com</i></p>
+<hr />
+<div class="div-sat24">
+    <a href='http://en.sat24.com/en' target='sat24'><img src='https://api.sat24.com/animated/EU/visual/3/GTB%20Standard%20Time/9336123' width=1140 height=700></a>
+</div>
+<br />
+<div class="div-sat24">
+    <iframe src="https://www.meteoblue.com/en/weather/widget/seeing?geoloc=detect&noground=0" frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 520px;height: 698px"></iframe>
+    <div style="float:right">
+        <iframe src="https://www.meteoblue.com/en/weather/widget/three?geoloc=detect&nocurrent=0&noforecast=0&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image" frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 575px;height: 698px"></iframe>
+    </div>
+
+</div>
+
+
+
+
+
+
